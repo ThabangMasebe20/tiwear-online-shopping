@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop – TiWear</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <section id="header">
+        <a href="index.html"><img src="img/TiWear_Logo-removebg-preview.png" class="logo" alt="TiWear Logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i> <span class="cart-count" id="cart-count">0</span></a></li>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i><span class="cart-count" id="cart-count-mobile">0</span></a>
+            <i id="bar" class="fas fa-bars"></i>
+        </div>
+    </section>
+
+    <!-- PAGE BANNER -->
+    <div id="page-header" class="shop-header">
+        <h2>Shop All Products</h2>
+        <p><a href="index.html">Home</a> &rsaquo; Shop</p>
+    </div>
+
+    <!-- SHOP BODY -->
+    <section id="shop-section" class="section-p1">
+
+        <!-- FILTER / SORT BAR -->
+        <div class="shop-controls">
+            <div class="filter-group">
+                <label for="category-filter"><i class="fas fa-filter"></i> Category:</label>
+                <select id="category-filter">
+                    <option value="all">All Products</option>
+                    <option value="audio">Audio</option>
+                    <option value="cases">Phone Cases</option>
+                    <option value="watches">Watches</option>
+                    <option value="jewellery">Jewellery</option>
+                    <option value="tech">Tech Accessories</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="sort-filter"><i class="fas fa-sort"></i> Sort By:</label>
+                <select id="sort-filter">
+                    <option value="default">Default</option>
+                    <option value="price-asc">Price: Low to High</option>
+                    <option value="price-desc">Price: High to Low</option>
+                    <option value="name-asc">Name: A–Z</option>
+                </select>
+            </div>
+            <p class="results-count" id="results-count">Showing all products</p>
+        </div>
+
+        <!-- PRODUCT GRID -->
+        <div class="pro-container" id="shop-products">
+
+            <div class="pro" data-category="audio" data-name="LAN XUN Airpods" data-price="150" data-img="img/Stock/airpod.png">
+                <img src="img/Stock/airpod.png" alt="Airpods">
+                <div class="des">
+                    <span>LAN XUN wireless airpods, USB-C Charging &amp; 180mAh Battery, noise cancellation</span>
+                    <h5>Airpods</h5>
+                    <h4>R150</h4>
+                </div>
+                <a href="#" class="add-to-cart-btn"><i class="fa-solid fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" data-category="audio" data-name="LAN XUN Earbuds" data-price="110" data-img="img/Stock/pro2.png">
+                <img src="img/Stock/pro2.png" alt="Earbuds">
+                <div class="des">
+                    <span>LAN XUN Wireless Earbuds, USB-C charging, mini earbuds, In-ear design</span>
+                    <h5>Earbuds</h5>
+                    <h4>R110</h4>
+                </div>
+                <a href="#" class="add-to-cart-btn"><i class="fa-solid fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" data-category="cases" data-name="Mountain Phone Cover" data-price="165" data-img="img/Stock/pro3.png">
+                <img src="img/Stock/pro3.png" alt="Phone Cover">
+                <div class="des">
+                    <span>Stylish iPhone case with dark mist mountains, silver &amp; colourful IMD</span>
+                    <h5>Phone Cover</h5>
+                    <h4>R165</h4>
+                </div>
+                <a href="#" class="add-to-cart-btn"><i class="fa-solid fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" data-category="audio" data-name="LAN XUN Earbuds Pro" data-price="110" data-img="img/Stock/pro4.png">
+                <img src="img/Stock/pro4.png" alt="Earbuds">
+                <div class="des">
+                    <span>LAN XUN Wireless Earbuds, USB-C charging, mini earbuds, In-ear design</span>
+                    <h5>Earbuds Pro</h5>
+                    <h4>R110</h4>
+                </div>
+                <a href="#" class="add-to-cart-btn"><i class="fa-solid fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" data-category="cases" data-name="Transparent Phone Case" data-price="80" data-img="img/Stock/pro5.png">
+                <img src="img/Stock/pro5.png" alt="Phone Case">
+                <div class="des">
+                    <span>Transparent phone case for Apple smartphones</span>
+                    <h5>Transparent Case</h5>
+                    <h4>R80</h4>
+                </div>
+                <a href="#" class="add-to-cart-btn"><i class="fa-solid fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" data-category="cases" data-name="Animated Phone Case" data-price="100" data-img="img/Stock/pro6.png">
+                <img src="img/Stock/pro6.png" alt="Phone Case">
+                <div class="des">
+                    <span>Black Animated iPhone Case</span>
+                    <h5>Animated Case</h5>
+                    <h4>R100</h4>
+                </div>
+                <a href="#" class="add-to-cart-btn"><i class="fa-solid fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" data-category="watches" data-name="Digital Wrist Watch" data-price="150" data-img="img/Stock/pro8.png">
+                <img src="img/Stock/pro8.png" alt="Digital Watch">
+                <div class="des">
+                    <span>Black Retro Square Digital Watch, Blue Display with Date, Alarm &amp; 24hr Timer</span>
+                    <h5>Digital Watch</h5>
+                    <h4>R150</h4>
+                </div>
+                <a href="#" class="add-to-cart-btn"><i class="fa-solid fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" data-category="watches" data-name="Minimalist Wrist Watch" data-price="100" data-img="img/Stock/pro7.png">
+                <img src="img/Stock/pro7.png" alt="Wrist Watch">
+                <div class="des">
+                    <span>Unisex Wristwatch, Glow-in-the-Dark, Minimalist Sports Watch</span>
+                    <h5>Minimalist Watch</h5>
+                    <h4>R100</h4>
+                </div>
+                <a href="#" class="add-to-cart-btn"><i class="fa-solid fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" data-category="watches" data-name="Men's Quartz Wristwatch" data-price="85" data-img="img/Stock/latest1.png">
+                <img src="img/Stock/latest1.png" alt="Wristwatch">
+                <div class="des">
+                    <span>Men's Waterproof Business Classic Quartz Wristwatch</span>
+                    <h5>Quartz Wristwatch</h5>
+                    <h4>R85</h4>
+                </div>
+                <a href="#" class="add-to-cart-btn"><i class="fa-solid fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" data-category="jewellery" data-name="Rhinestone Jewellery Set" data-price="60" data-img="img/Stock/latest2.png">
+                <img src="img/Stock/latest2.png" alt="Jewellery Set">
+                <div class="des">
+                    <span>4pcs Rhinestone Earrings, Necklace &amp; Ring Set – Luxury Style</span>
+                    <h5>Rhinestone Set</h5>
+                    <h4>R60</h4>
+                </div>
+                <a href="#" class="add-to-cart-btn"><i class="fa-solid fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" data-category="jewellery" data-name="Bohemian Jewellery Set" data-price="65" data-img="img/Stock/latest3.png">
+                <img src="img/Stock/latest3.png" alt="Jewellery Set">
+                <div class="des">
+                    <span>5pcs Bohemian Set – Necklace, Earrings, Bracelet &amp; Ring</span>
+                    <h5>Bohemian Set</h5>
+                    <h4>R65</h4>
+                </div>
+                <a href="#" class="add-to-cart-btn"><i class="fa-solid fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" data-category="tech" data-name="Gaming Wireless Mouse" data-price="105" data-img="img/Stock/latest4.png">
+                <img src="img/Stock/latest4.png" alt="Wireless Mouse">
+                <div class="des">
+                    <span>Gaming Mouse with USB Receiver, 6 Buttons, for PC &amp; Laptop</span>
+                    <h5>Gaming Mouse</h5>
+                    <h4>R105</h4>
+                </div>
+                <a href="#" class="add-to-cart-btn"><i class="fa-solid fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" data-category="tech" data-name="Tritan Water Bottle" data-price="215" data-img="img/Stock/latest5.png">
+                <img src="img/Stock/latest5.png" alt="Water Bottle">
+                <div class="des">
+                    <span>Tritan Sport Water Bottle with Filter – Leakproof &amp; Durable</span>
+                    <h5>Water Bottle</h5>
+                    <h4>R215</h4>
+                </div>
+                <a href="#" class="add-to-cart-btn"><i class="fa-solid fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" data-category="tech" data-name="Ergonomic Wireless Mouse" data-price="120" data-img="img/Stock/latest6.png">
+                <img src="img/Stock/latest6.png" alt="Wireless Mouse">
+                <div class="des">
+                    <span>Portable Ergonomic Wireless Mouse – Gaming &amp; Office Use</span>
+                    <h5>Ergonomic Mouse</h5>
+                    <h4>R120</h4>
+                </div>
+                <a href="#" class="add-to-cart-btn"><i class="fa-solid fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" data-category="tech" data-name="Keyboard & Mouse Combo" data-price="800" data-img="img/Stock/latest7.png">
+                <img src="img/Stock/latest7.png" alt="Keyboard & Mouse">
+                <div class="des">
+                    <span>Wired Keyboard &amp; Wireless Mouse Combo, Type-C Charger</span>
+                    <h5>Keyboard &amp; Mouse Combo</h5>
+                    <h4>R800</h4>
+                </div>
+                <a href="#" class="add-to-cart-btn"><i class="fa-solid fa-shopping-cart cart"></i></a>
+            </div>
+
+        </div>
+
+        <!-- NO RESULTS MESSAGE -->
+        <div id="no-results" class="no-results" style="display:none;">
+            <i class="fas fa-search"></i>
+            <p>No products found in this category.</p>
+        </div>
+
+    </section>
+
+    <!-- TOAST -->
+    <div id="toast" class="toast"></div>
+
+    <!-- FOOTER -->
+    <footer class="section-p1">
+        <div class="column">
+            <img src="img/TiWear_Logo-removebg-preview.png" alt="TiWear Logo">
+            <h4>Contact</h4>
+            <p><strong>Phone: </strong>+27-65-816-1254</p>
+            <p><strong>Email: </strong>thabangmasebe10@gmail.com</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="about.html">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="#">Terms &amp; Conditions</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Account</a>
+            <a href="#">Sign In</a>
+            <a href="cart.html">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track Order</a>
+            <a href="contact.html">Help</a>
+        </div>
+        <div class="col install">
+            <p><strong>Secured Payment Gateway</strong></p>
+            <img src="img/pay/mastercards.png" alt="Mastercard">
+        </div>
+        <div class="copyright">
+            <p>© 2025 TiWear by Thabang Masebe. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
