@@ -149,7 +149,7 @@ This project was built to:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/tiwear-online-shopping.git
+git clone https://github.com/thabangmasebe20/tiwear-online-shopping.git
 ```
 
 2. Open the project folder:
