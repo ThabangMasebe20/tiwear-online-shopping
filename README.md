@@ -173,7 +173,8 @@ This is a personal project, but feedback and suggestions are welcome.
 **Thabang Masebe**
 
 * Email: [thabangmasebe10@gmail.com](mailto:thabangmasebe10@gmail.com)
-* GitHub: https://github.com/your-username
+* GitHub: https://github.com/thabangmasebe20
+
 
 ---
 
