@@ -136,12 +136,12 @@ This project was built to:
 
 ## 📸 Screenshots
 
-![alt text](img\screenshots\image.png)
-![alt text](img\screenshots\image-1.png)
-![alt text](img\screenshots\image-2.png)
-![alt text](img\screenshots\image-3.png)
-![alt text](img\screenshots\image-4.png)
-![alt text](img\screenshots\image-5.png)
+![alt text](img/screenshots/image.png)
+![alt text](img/screenshots/image-1.png)
+![alt text](img/screenshots/image-2.png)
+![alt text](img/screenshots/image-3.png)
+![alt text](img/screenshots/image-4.png)
+![alt text](img/screenshots/image-5.png)
 ---
 
 ## 📦 Installation & Usage
@@ -174,10 +174,6 @@ This is a personal project, but feedback and suggestions are welcome.
 
 * Email: [thabangmasebe10@gmail.com](mailto:thabangmasebe10@gmail.com)
 * GitHub: https://github.com/thabangmasebe20
-<<<<<<< HEAD
-
-=======
->>>>>>> 3dd3ad2 (Added screenshots and updated README)
 
 ---
 
